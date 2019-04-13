@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "ad2.n7",
+    "package_name": "n7.ad2",
     "sha256_cert_fingerprints":
      ["13:9C:CA:E4:E4:F9:C6:8F:69:9D:5B:CA:27:61:D8:55:E1:82:78:8C:DB:53:34:30:8F:BA:64:F6:80:1A:FF:96"]
   }
