@@ -331,12 +331,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 70%;
+  	width: 80%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .wordpress {
-  	width: 40%;
+  	width: 75%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
@@ -346,7 +346,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 30%;
+  	width: 50%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
@@ -362,11 +362,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 75%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
@@ -374,7 +374,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 50%;  }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
@@ -387,11 +387,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes wordpress {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 75%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
@@ -399,7 +399,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 50%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
