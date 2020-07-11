@@ -1,0 +1,13 @@
+Responsibilities as Android Software Developer : 
+- Design and develop advanced applications for the Android platform
+- Work with product owners on implementing features that allow a better understanding of user’s behaviour and needs, focusing on modularity and extensibility 
+- Work with Design team on creating UI/UX following the platform’s guidelines to create a good native experience 
+- Collaborate with the backend team on creating a secure and straight-forward communication between apps and backend
+- Other tasks include bug fixing, implementing automated tests, code reviews
+
+Responsibilities as Android Software Developer as outstuffer :
+- Develop features with maintaining consistency/compatabilities 
+- Refactoring existing code written in Java on Kotlin
+- Identify critical/crash/hidden defects in applications and suggest quick fix by analyzing logs
+- Work with QA team for fixing bugs & troubleshooting performance issue 
+- Participate in weekly stand-up/estimation meetings
