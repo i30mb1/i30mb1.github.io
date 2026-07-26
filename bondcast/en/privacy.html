@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Bondcast</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #000;
+            border-bottom: 2px solid #ef4444;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+        a { color: #ef4444; }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+        }
+        .top-nav a { text-decoration: none; }
+        code {
+            background: #f3f3f3;
+            border-radius: 4px;
+            padding: 1px 5px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-nav">
+        <a href="./">← Bondcast</a>
+        <a href="../privacy.html">RU</a>
+    </div>
+
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated: July 26, 2026</p>
+
+    <h2>1. Introduction</h2>
+    <p>Bondcast is an Android app that streams video and audio from your phone's camera to a server of your choice: your own Bondcast Stream server, any other SRT server, or straight to Twitch. This policy is maintained by the app's developer (i30mb1).</p>
+
+    <h2>2. The short version</h2>
+    <p>Bondcast has no cloud of its own, and the developer does not collect data on any server they operate. Video and audio from your camera and microphone go directly to whatever destination you configured, bypassing the developer entirely. The app contains no ads, no analytics, and no trackers.</p>
+
+    <h2>3. Permissions the app requests</h2>
+    <ul>
+        <li><b>Camera, microphone</b> — to capture the video and audio for your stream.</li>
+        <li><b>Network state / change network state</b> — to stream over Wi-Fi and mobile data at the same time (bonding) and keep going on whichever link is still up if one drops.</li>
+        <li><b>Foreground service, notifications, wake lock</b> — so the stream keeps running with the screen off or the app in the background.</li>
+        <li><b>USB</b> — optional, for connecting an external USB camera.</li>
+    </ul>
+    <p>None of these permissions are used to collect data about you — they exist solely to keep the stream itself running.</p>
+
+    <h2>4. Where your stream goes</h2>
+    <p>You set the server address yourself — either by hand or by scanning a QR code from your own Bondcast Stream dashboard. Video and audio travel over SRT/SRTLA (or RTMP, when streaming straight to Twitch) directly to that address. There is no server operated by the developer that your stream passes through or is stored on.</p>
+
+    <h2>5. Signing in with Twitch (optional)</h2>
+    <p>The on-screen chat overlay, the chatter list, and one-tap stream-key fill-in only work if you choose to sign in with Twitch. Sign-in uses the Device Code Flow — the app never sees your Twitch password. The scopes it requests are:</p>
+    <ul>
+        <li><code>user:read:chat</code> — read your channel's chat;</li>
+        <li><code>moderator:read:chatters</code> — see who's currently in chat;</li>
+        <li><code>channel:read:stream_key</code> — fill in your stream key with one tap for direct-to-Twitch streaming.</li>
+    </ul>
+    <p>The access and refresh tokens are stored on your phone encrypted (AES/GCM, with the key held in the Android Keystore) and are never sent anywhere except to Twitch itself. Chat messages and the chatter list are fetched live from Twitch to display over your camera feed — the app does not store or forward them anywhere. You can revoke access at any time, either by signing out in the app's settings or from your Twitch account settings.</p>
+
+    <h2>6. Local settings</h2>
+    <p>App settings (server address, bitrate, which features are enabled, and so on) are stored locally on your phone and are never sent anywhere.</p>
+
+    <h2>7. Third-party services</h2>
+    <p>The app uses no ad networks, analytics, or crash-reporting services. The only third party it may exchange data with is Twitch, and only if you choose to sign in with Twitch. Twitch's privacy policy: <a href="https://www.twitch.tv/p/legal/privacy-notice/" target="_blank">twitch.tv/p/legal/privacy-notice</a>.</p>
+
+    <h2>8. Security</h2>
+    <p>Your Twitch token is stored encrypted on your device. You can protect the connection to your streaming server with a password (SRT passphrase), so only someone who knows it can connect.</p>
+
+    <h2>9. Children's privacy</h2>
+    <p>The app is not intended for children under 13, and it does not knowingly collect information from them.</p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>If this policy changes, the "Last updated" date at the top of the page will be updated accordingly.</p>
+
+    <h2>11. Contact</h2>
+    <p>For questions about this policy, reach out via the GitHub repository: <a href="https://github.com/i30mb1/Bondcast" target="_blank">github.com/i30mb1/Bondcast</a>.</p>
+</body>
+</html>
