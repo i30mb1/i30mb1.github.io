@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Удаление аккаунта и данных — Bondcast</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #000;
+            border-bottom: 2px solid #ef4444;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+        a { color: #ef4444; }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+        }
+        .top-nav a { text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="top-nav">
+        <a href="./">← Bondcast</a>
+        <a href="en/delete-account.html">EN</a>
+    </div>
+
+    <h1>Удаление аккаунта и данных</h1>
+    <p class="date">Последнее обновление: 27 июля 2026</p>
+
+    <p>Bondcast разрабатывает <b>i30mb1</b>. Bondcast не создаёт и не хранит для вас никакого аккаунта на своих серверах. Единственная функция входа — логин через Twitch (OAuth); Bondcast хранит на вашем устройстве небольшой зашифрованный access/refresh-токен, чтобы обращаться к Twitch от вашего имени. Подробности — в <a href="privacy.html">Политике конфиденциальности</a>.</p>
+
+    <h2>Как удалить свои данные</h2>
+    <ol>
+        <li>Откройте <b>Bondcast → Настройки → Twitch → Выйти</b>. Это сразу удалит токен Twitch, хранящийся на вашем устройстве.</li>
+        <li>Чтобы полностью отозвать доступ Bondcast к вашему Twitch-аккаунту, зайдите на <a href="https://www.twitch.tv/settings/connections" target="_blank">twitch.tv/settings/connections</a> и удалите <b>Bondcast</b> из списка подключённых сервисов.</li>
+        <li>Удаление приложения стирает все оставшиеся локальные данные, включая настройки сервера/стрима и любые сохранённые токены.</li>
+    </ol>
+    <p>Если нужна помощь с этими шагами, напишите на <a href="mailto:fate.i30mb1@gmail.com">fate.i30mb1@gmail.com</a> — обработаем запрос в течение нескольких дней.</p>
+
+    <h2>Какие данные удаляются, что остаётся и на какой срок</h2>
+    <ul>
+        <li>У Bondcast нет собственного бэкенда, разработчик не собирает и не хранит ваши данные на своих серверах.</li>
+        <li>Настройки приложения (адрес сервера, passphrase стрима, ключи трансляции, токены Twitch) хранятся только локально на устройстве. Они удаляются сразу при выходе из аккаунта или удалении приложения — дополнительного срока хранения нет.</li>
+        <li>Видео и аудио вашего стрима отправляются напрямую и в реальном времени на указанный вами сервер (свой сервер или сторонний сервис вроде Twitch). Само приложение Bondcast не записывает, не хранит и не сохраняет копию этого контента.</li>
+    </ul>
+
+    <h2>Контакты</h2>
+    <p><a href="mailto:fate.i30mb1@gmail.com">fate.i30mb1@gmail.com</a> или через репозиторий на GitHub: <a href="https://github.com/i30mb1/Bondcast" target="_blank">github.com/i30mb1/Bondcast</a>.</p>
+</body>
+</html>

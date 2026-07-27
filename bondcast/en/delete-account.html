@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account &amp; Data — Bondcast</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #000;
+            border-bottom: 2px solid #ef4444;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+        a { color: #ef4444; }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+        }
+        .top-nav a { text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="top-nav">
+        <a href="./">← Bondcast</a>
+        <a href="../delete-account.html">RU</a>
+    </div>
+
+    <h1>Delete Account &amp; Data</h1>
+    <p class="date">Last updated: July 27, 2026</p>
+
+    <p>Bondcast is developed by <b>i30mb1</b>. Bondcast does not create or store any account for you on our own servers. The only sign-in feature is Twitch login (OAuth); Bondcast keeps a small encrypted access/refresh token on your device so it can talk to Twitch on your behalf. See the full <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+    <h2>How to delete your data</h2>
+    <ol>
+        <li>Open <b>Bondcast → Settings → Twitch → Log out</b>. This immediately deletes the Twitch token stored on your device.</li>
+        <li>To fully revoke Bondcast's access to your Twitch account, sign in at <a href="https://www.twitch.tv/settings/connections" target="_blank">twitch.tv/settings/connections</a> and remove <b>Bondcast</b> from your Connected Services.</li>
+        <li>Uninstalling the app deletes all remaining local app data, including server/stream settings and any cached tokens.</li>
+    </ol>
+    <p>If you need help with any of these steps, contact us at <a href="mailto:fate.i30mb1@gmail.com">fate.i30mb1@gmail.com</a> and we will process your request within a few days.</p>
+
+    <h2>What data is deleted, what we retain, and for how long</h2>
+    <ul>
+        <li>Bondcast has no backend servers of its own and does not collect, store, or retain any of your data on servers we control.</li>
+        <li>App settings (server address, stream passphrase, stream keys, Twitch tokens) are stored only locally on your device. They are deleted immediately when you log out or uninstall the app — there is no additional retention period.</li>
+        <li>Video and audio you stream are sent directly, in real time, to the streaming server you configure (your own server, or a third-party service such as Twitch). Bondcast itself does not record, store, or retain a copy of this content.</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:fate.i30mb1@gmail.com">fate.i30mb1@gmail.com</a>, or via the GitHub repository: <a href="https://github.com/i30mb1/Bondcast" target="_blank">github.com/i30mb1/Bondcast</a>.</p>
+</body>
+</html>
